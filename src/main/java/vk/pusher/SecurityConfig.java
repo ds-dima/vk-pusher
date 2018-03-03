@@ -53,7 +53,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .userInfoUri("https://www.googleapis.com/oauth2/v3/userinfo")
 //                .userNameAttributeName(IdTokenClaimNames.SUB)
 //                .jwkSetUri("https://www.googleapis.com/oauth2/v3/certs")
-//                .clientName("Google")
+                .clientName("Heroku")
                 .build();
     }
 }
