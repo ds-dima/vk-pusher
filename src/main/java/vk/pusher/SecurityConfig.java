@@ -40,9 +40,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private ClientRegistration vkClientRegistration() {
         return ClientRegistration
-                .withRegistrationId("google")
-                .clientId("6391671")
-                .clientSecret("rWLGHGNggmYce1Xi75S3")
+                .withRegistrationId("vk")
+                .clientId("6394633")
+                .clientSecret("OnrdJWkGfyqB6ShCGCSx")
                 .clientAuthenticationMethod(ClientAuthenticationMethod.BASIC)
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .redirectUriTemplate("https://vk-pusher2.herokuapp.com")
@@ -53,7 +53,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .userInfoUri("https://www.googleapis.com/oauth2/v3/userinfo")
 //                .userNameAttributeName(IdTokenClaimNames.SUB)
 //                .jwkSetUri("https://www.googleapis.com/oauth2/v3/certs")
-                .clientName("Heroku")
+                .clientName("VK-pusher")
                 .build();
     }
 }
