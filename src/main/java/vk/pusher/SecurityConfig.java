@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .clientSecret("OnrdJWkGfyqB6ShCGCSx")
                 .clientAuthenticationMethod(ClientAuthenticationMethod.BASIC)
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
-                .redirectUriTemplate("https://vk-pusher2.herokuapp.com")
+                .redirectUriTemplate("https://vk-pusher.herokuapp.com")
                 .scope("friends")
                 .authorizationUri("https://oauth.vk.com/authorize?v=5.73")
                 .tokenUri("https://oauth.vk.com/access_token")
